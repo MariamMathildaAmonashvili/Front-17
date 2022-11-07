@@ -1,0 +1,44 @@
+* { 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    max-width: 1440px;
+    
+}
+
+.button { display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    
+}
+
+.btn {
+    background-color: #AAD7ED ;
+    width: 40% ; 
+    height: 100px ;
+    color: #BE9DEB;
+    border-color: #AAD7ED;
+    border-bottom: #AAD7ED;
+    border-right: #AAD7ED; 
+    font-size: 30px;
+    font-family: Arial, Helvetica;
+    border-radius: 70px;
+    cursor: pointer;
+    
+;
+}
+
+
+/* #044768 */
+
+
+#character-list {
+    max-width: auto ;
+    width: 80% ;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    background-color: #044768;
+
+}
+
